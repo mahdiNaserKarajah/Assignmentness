@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="activity1Style">
+<item name="android:textSize">15dp</item>
+
+    </style>
+
+
+</resources>

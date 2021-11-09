@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#97DDE3"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+
+    android:padding="100dp"
+    >
+
+    <Button
+        android:id="@+id/diet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/the_fundamentals_of_a_balanced_diet"
+
+        android:gravity="center"
+        android:onClick="btnDiet"
+        android:paddingBottom="100dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/trainig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:foreground="@drawable/a_fitness_trainers"
+        android:gravity="center"
+        android:onClick="btnTraining"
+        android:paddingTop="100dp"
+
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</LinearLayout>

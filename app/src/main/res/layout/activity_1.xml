@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_0200218_capture0006_edit"
+    android:orientation="vertical"
+    tools:context=".Activity1">
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_marginLeft="5dp"
+        android:layout_marginTop="60dp"
+        >
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="200dp"
+
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            <TextView
+
+                style="@style/activity1Style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0C9BBF"
+                android:backgroundTintMode="src_atop"
+                android:text="        Enter your Name"
+
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/Age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="200dp"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/activity1Style"
+                android:width="120dp"
+                android:background="#0C9BBF"
+                android:text="Age"
+                android:layout_marginLeft="30dp"
+                />
+
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/Weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="200dp"
+
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/activity1Style"
+                android:width="120dp"
+                android:background="#0C9BBF"
+                android:text="Weight"
+                android:layout_marginLeft="90dp"
+
+                />
+
+
+
+
+        </TableRow>
+<TableRow>
+    <Button
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Enter"
+        android:id="@+id/btnEnter"
+        android:onClick="btnEnterData"
+
+
+        />
+
+</TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
